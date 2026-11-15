@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "zenith",
+  "version": "${version}",
+  "name": "Zenith Client",
+  "description": "PVP HUD modules, zoom, fullbright and realistic fog.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": { "client": ["net.zenith.ZenithClient"] },
+  "mixins": ["zenith.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
