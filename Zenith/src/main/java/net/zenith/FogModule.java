@@ -3,7 +3,7 @@ package net.zenith;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.render.Camera;
-import net.minecraft.client.render.CameraSubmersionType;
+import net.minecraft.block.enums.CameraSubmersionType;
 import net.minecraft.client.render.Fog;
 import net.minecraft.client.render.FogShape;
 import net.minecraft.client.world.ClientWorld;
